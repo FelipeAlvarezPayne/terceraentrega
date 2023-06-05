@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+body {
+    margin: 0;
+    background-color: #171717;
+    font-family: 'Poppins', sans-serif;
+    
+   
+}
+.navbar { 
+    background-color: #2a2929; 
+
+
+    &-brand {
+        color: #cbae88;
+        font-size: 1.6rem;
+    }
+    &-brand:hover {
+        color: #FFF;
+        transition: .2s;
+    }
+    &-toggler {
+        color: #cbae88;
+        width: 70px;
+        border: none !important; 
+    }
+    &-toggler:focus {
+        box-shadow: none !important;
+    }
+}
+.nav-link {
+    color: #cbae88;
+    font-size: 1.1rem;
+    
+    &:hover{
+        color: #FFF;
+        transition: .2s;
+    }
+}
+
+@import "//scss/components/navbar";
+@import "//scss/components/footer";

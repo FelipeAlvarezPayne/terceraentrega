@@ -1,0 +1,33 @@
+.footer {
+    position:fixed;
+    bottom: 0px;
+    background-color: #2a2929;
+    padding: 10px;
+    display: flex;
+    align-items: baseline;
+    justify-content:space-between;
+    width: 100%;
+    }
+    &__Licencia {
+    color: #D7C8B6;
+    font-size: 0.625rem;
+    padding: 10px;
+    margin-left: 20px;
+    }
+    &__list {
+    list-style: none;
+    text-decoration: none;
+    display: inline-flex;
+    gap: 40px;
+    font-size: 1.125rem;
+    margin-top: 20px;
+    margin-right: 40px;
+
+}
+    &__list a {
+    color: #D7C8B6;
+}
+    &__list a:hover {
+    color: #FFF;
+    transition: .3s;
+}

@@ -43,7 +43,7 @@ body {
     box-shadow: none !important;
 }
 
-.footer__container {
+.footer {
     position:fixed;
     bottom: 0px;
     background-color: #2a2929;
@@ -365,7 +365,7 @@ body {
 
 @media (max-width: 415px) {
 
-    .footer__container {
+    .footer {
         position:relative;
     }
 
@@ -552,7 +552,7 @@ body {
 }
     @media only screen and (min-width: 416px) and (max-width: 769px) {
     
-    .footer__container {
+    .footer {
         position:relative;
     }
 
@@ -739,7 +739,7 @@ body {
     
 }
 @media only screen and (min-width: 769px) and (max-width: 1360px) {
-    .footer__container {
+    .footer {
         position:relative;
     }
     .inicio {
@@ -917,7 +917,7 @@ body {
     }
 }
     @media only screen and (min-width: 1360px) and (max-width: 1800px) {
-    .footer__container {
+    .footer {
         position:relative;
         }
     /*SECCIÓN SERVICIOS*/
