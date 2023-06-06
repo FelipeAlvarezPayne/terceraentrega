@@ -1,5 +1,3 @@
-@import "//scss/components/navbar";
-@import "//scss/components/footer";
 * {
   padding: 0;
   margin: 0;
@@ -27,17 +25,62 @@ body {
   width: 70px;
   border: none !important;
 }
-.navbar-toggler:focus {
+.navbar.navbar-toggler:focus {
   box-shadow: none !important;
 }
 
-.nav-link {
-  color: #cbae88;
-  font-size: 1.1rem;
+.footer {
+  position: fixed;
+  bottom: 0px;
+  background-color: #2a2929;
+  padding: 10px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  width: 100%;
 }
-.nav-link:hover {
+.footer__list {
+  list-style: none;
+  text-decoration: none;
+  display: inline-flex;
+  gap: 40px;
+  font-size: 1.125rem;
+  margin-top: 20px;
+  margin-right: 40px;
+}
+.footer__list a {
+  color: #D7C8B6;
+}
+.footer__list a:hover {
   color: #FFF;
-  transition: 0.2s;
+  transition: 0.3s;
+}
+.footer .footer__Licencia {
+  color: #D7C8B6;
+  font-size: 0.625rem;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+@media (max-width: 415px) {
+  .footer {
+    position: relative;
+  }
+}
+@media only screen and (min-width: 416px) and (max-width: 769px) {
+  .footer {
+    position: relative;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1360px) {
+  .footer {
+    position: relative;
+  }
+}
+@media only screen and (min-width: 1360px) and (max-width: 1800px) {
+  .footer {
+    position: relative;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -7,13 +7,8 @@
     align-items: baseline;
     justify-content:space-between;
     width: 100%;
-    }
-    &__Licencia {
-    color: #D7C8B6;
-    font-size: 0.625rem;
-    padding: 10px;
-    margin-left: 20px;
-    }
+    
+    
     &__list {
     list-style: none;
     text-decoration: none;
@@ -31,3 +26,33 @@
     color: #FFF;
     transition: .3s;
 }
+.footer__Licencia {
+    color: #D7C8B6;
+    font-size: 0.625rem;
+    padding: 10px;
+    margin-left: 20px;
+    }
+}
+
+@media (max-width: 415px) {
+
+    .footer {
+            position:relative;
+        }
+    }
+@media only screen and (min-width: 416px) and (max-width: 769px) {
+    
+    .footer {
+            position:relative;
+        }
+    }
+@media only screen and (min-width: 769px) and (max-width: 1360px) {
+    .footer {
+            position:relative;
+        }
+    }
+@media only screen and (min-width: 1360px) and (max-width: 1800px) {
+    .footer {
+            position:relative;
+                    }
+    }

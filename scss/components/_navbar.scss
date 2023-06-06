@@ -10,4 +10,12 @@
         color: #FFF;
         transition: .2s;
     }
+    &-toggler {
+        color: #cbae88;
+        width: 70px;
+        border: none !important; 
+    }
+    &.navbar-toggler:focus {
+        box-shadow: none !important;
+    }
 }
