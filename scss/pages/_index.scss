@@ -1,3 +1,11 @@
+
+/*SECCION INDEX*/
+$color1: #2a2929;
+$color2: #F6E3CA;
+$color3: #171717;
+$color4: #D7C8B6;
+$color5: #cbae88;
+
 .inicio { 
     
     display: flex;
@@ -11,26 +19,33 @@
 
     &__contenido h1 {
         font-size: 3rem;
-        color: #cbae88;
+        color: $color5;
         text-align:start;
         margin-top: 80px; 
     }
 
     &__h1edit {
-        color: #D7C8B6;
+        color: $color4;
         font-style: bold;
     }
 
     &__contenido h2 {
         font-size: 2rem;
-        color: #F6E3CA;
+        color: $color2;
         margin-top: 100px;
     }
 
     &__compu {
         display: flex;
-        background-color: #F6E3CA;
+        background-color: $color2;
         border-radius: 100px;
+    }
+
+    &__compu img{
+        width: auto;
+        border-radius: 100px;
+        padding: 10px;
+        
     }
 
     &__compu img:hover {
@@ -69,9 +84,11 @@
         margin-right: 3px; 
         width: 350px;
         height: 225px;
+        border-radius: 100px;
     }
     .inicio__compu img {
         width: 350px;
         height: fit-content;
+        border-radius: 100px;
     }
 }
