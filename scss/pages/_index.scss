@@ -1,11 +1,77 @@
-.navbar {
-    background-color: #2a2929;
-    &-brand {
+.inicio { 
+    
+    display: flex;
+    margin-top: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 15px;
+    padding: 10px 10px;
+    justify-content: space-around;
+    
+
+    &__contenido h1 {
+        font-size: 3rem;
         color: #cbae88;
-        font-size: 1.6rem;
+        text-align:start;
+        margin-top: 80px; 
     }
-    &-brand:hover {
-        color: #FFF;
-        transition: .2s;
+
+    &__h1edit {
+        color: #D7C8B6;
+        font-style: bold;
+    }
+
+    &__contenido h2 {
+        font-size: 2rem;
+        color: #F6E3CA;
+        margin-top: 100px;
+    }
+
+    &__compu {
+        display: flex;
+        background-color: #F6E3CA;
+        border-radius: 100px;
+    }
+
+    &__compu img:hover {
+        filter: brightness(.5);
+        transition: 1s;
+    }
+}
+@media (max-width: 415px) {
+
+    .inicio {
+        width:90%;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-self: center;
+
+    }
+    .inicio__contenido {
+        width: 90%;
+    }
+    
+    .inicio__contenido h1 {
+        width: 95%;
+        font-size: 2rem;
+        text-align: center;
+        display: inline-block; 
+    }
+    .inicio__contenido h2 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .inicio__compu {
+        margin-top: 100px;
+        margin-bottom: 200px;
+        margin-right: 3px; 
+        width: 350px;
+        height: 225px;
+    }
+    .inicio__compu img {
+        width: 350px;
+        height: fit-content;
     }
 }
