@@ -305,7 +305,6 @@ body {
 }
 
 .boximg {
-  margin-top: 20%;
   width: 300px;
   overflow: clip;
   border: 2px solid #D7C8B6;
@@ -340,6 +339,75 @@ body {
 .Ver_text:hover {
   background-color: #cbae88;
   color: #171717;
+}
+
+/*SERVICIOS*/
+.section-servicios {
+  display: flex;
+  background-color: #2a2929;
+  width: auto;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 120px;
+  border-radius: 15px;
+  padding: 10px 10px;
+  justify-content: space-around;
+}
+
+#contenido-servicios {
+  height: 100vh;
+}
+
+.boximgS {
+  width: 300px;
+  overflow: clip;
+}
+
+/* CONTACTO */
+.contacto {
+  width: 100%;
+  height: 50vh;
+  margin-top: 170px;
+}
+.contacto__contenido {
+  display: grid;
+  grid-template-rows: 2fr;
+  width: 60%;
+  gap: 120px;
+  margin: auto;
+}
+.contacto__contenido h1 {
+  font-size: 2rem;
+  color: #cbae88;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.formulario {
+  padding: 20px;
+  width: auto;
+  color: #cbae88;
+  border-radius: 20px;
+  background-color: #2a2929;
+}
+.formulario__texto {
+  position: relative;
+  padding: 10px 10px;
+  font-size: 15px;
+  text-align: center;
+}
+.formulario__boton {
+  background-color: #cbae88;
+  color: #171717;
+  border: 2px solid #D7C8B6;
+  border-radius: 20px;
+  padding: 5px;
+}
+.formulario__boton:hover {
+  color: #FFF;
+  transition: 0.2s;
 }
 
 /*# sourceMappingURL=style.css.map */

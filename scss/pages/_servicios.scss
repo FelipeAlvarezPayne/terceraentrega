@@ -1,0 +1,23 @@
+/*SERVICIOS*/
+.section-servicios {
+    display: flex;
+    background-color: #2a2929;
+    width: auto;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 120px;
+    border-radius: 15px;
+    padding: 10px 10px;
+    justify-content: space-around;
+    
+}
+
+#contenido-servicios {
+    height: 100vh;
+}
+
+.boximgS {
+	width: 300px;
+	overflow: clip;
+}
