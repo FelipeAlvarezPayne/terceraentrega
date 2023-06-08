@@ -37,16 +37,7 @@
         background-color: #171717;
         text-align: justify;
     }
-    &__texto p {
-        margin-top: 20px;
-        margin-right: 20px;
-        font-size: 20px;
-        color: #D7C8B6;
-        padding: 20px 20px;
-        border-radius: 15px;
-        background-color: #171717;
-        text-align: justify;
-    }
+
     &__fondoimagen {
     
         background-color: #171717;
@@ -91,4 +82,45 @@
 .divbotones {
         display: inline-flex;
         margin: 20px;
+}
+
+@media (max-width: 415px) {
+
+.sobremi {
+        display: grid;
+        grid-template-rows: auto;
+        height: auto;
+        width: auto;
+        gap: 30px;
+
+&__texto {
+        justify-content: center;
+        align-items: center;
+    }
+&__texto p {
+        width: auto;
+        height: auto;
+        margin-left: 19px;
+        margin-top: 20px;
+        font-size: 14px;
+        color: #D7C8B6;
+        padding: 10px 10px;
+    }
+
+&__fondoimagen {
+        width: 90%;
+        margin-left: 15px;
+        margin-bottom: 20px;
+    }
+    &__fondoimagen img {
+        width: 90%;
+        left: 20px;
+    }
+
+}
+.botones {
+    display: block;
+    width: auto;
+    margin-bottom: 100px;
+    }
 }

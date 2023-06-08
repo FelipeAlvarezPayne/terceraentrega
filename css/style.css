@@ -168,6 +168,63 @@ body {
     border-radius: 100px;
   }
 }
+@media only screen and (min-width: 416px) and (max-width: 769px) {
+  .inicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .inicio__contenido {
+    width: 90%;
+  }
+  .inicio__contenido h1 {
+    width: 95%;
+    font-size: 2.3rem;
+    text-align: center;
+    margin-left: 5px;
+  }
+  .inicio__contenido h2 {
+    font-size: 1.8rem;
+    text-align: center;
+    justify-content: center;
+  }
+  .inicio__compu {
+    margin-top: 100px;
+    margin-bottom: 200px;
+    margin-right: 3px;
+  }
+  .inicio__compu img {
+    width: 350px;
+    height: cover;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1360px) {
+  .inicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+  }
+  .inicio__contenido {
+    width: 90%;
+  }
+  .inicio__contenido h1 {
+    width: 95%;
+    font-size: 2.3rem;
+    text-align: center;
+    margin-left: 5px;
+  }
+  .inicio__contenido h2 {
+    font-size: 1.8rem;
+    text-align: center;
+    justify-content: center;
+  }
+  .inicio__compu {
+    margin-bottom: 200px;
+  }
+}
 /*SECCION SOBREMI*/
 .sobremi {
   display: flex;
@@ -194,16 +251,6 @@ body {
   font-size: 25px;
   color: #cbae88;
   padding: 20px 20px;
-}
-.sobremi__texto p {
-  margin-top: 20px;
-  margin-right: 20px;
-  font-size: 20px;
-  color: #D7C8B6;
-  padding: 20px 20px;
-  border-radius: 15px;
-  background-color: #171717;
-  text-align: justify;
 }
 .sobremi__texto p {
   margin-top: 20px;
@@ -254,6 +301,42 @@ body {
   margin: 20px;
 }
 
+@media (max-width: 415px) {
+  .sobremi {
+    display: grid;
+    grid-template-rows: auto;
+    height: auto;
+    width: auto;
+    gap: 30px;
+  }
+  .sobremi__texto {
+    justify-content: center;
+    align-items: center;
+  }
+  .sobremi__texto p {
+    width: auto;
+    height: auto;
+    margin-left: 19px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #D7C8B6;
+    padding: 10px 10px;
+  }
+  .sobremi__fondoimagen {
+    width: 90%;
+    margin-left: 15px;
+    margin-bottom: 20px;
+  }
+  .sobremi__fondoimagen img {
+    width: 90%;
+    left: 20px;
+  }
+  .botones {
+    display: block;
+    width: auto;
+    margin-bottom: 100px;
+  }
+}
 .section-proyectos {
   display: flex;
   background-color: #2a2929;
