@@ -10,6 +10,7 @@
     border-radius: 15px;
     padding: 10px 10px;
     justify-content: space-around;
+    animation: caida 2s ease-in-out;
 
     &__texto h1 {
         width: auto;
@@ -17,6 +18,7 @@
         font-size: 25px;
         color: #cbae88;
         padding: 20px 20px;
+        animation: caida 3s ease-in-out;
     }
     &__texto h2 {
         width: auto;
@@ -24,6 +26,7 @@
         font-size: 25px;
         color: #cbae88;
         padding: 20px 20px;
+        animation: caida 3s ease-in-out;
     }
     &__texto p {
         margin-top: 20px;
