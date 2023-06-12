@@ -120,11 +120,24 @@ body {
   display: flex;
   background-color: #F6E3CA;
   border-radius: 100px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  animation: aparecer 1s ease-out;
+}
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 .inicio__compu img {
   width: auto;
   border-radius: 100px;
   padding: 10px;
+  animation: aparecer 1s ease-out;
 }
 .inicio__compu img:hover {
   filter: brightness(0.5);
@@ -153,6 +166,16 @@ body {
     font-size: 1.5rem;
     text-align: center;
   }
+  @keyframes aparecer {
+    0% {
+      opacity: 0;
+      transform: scale(0.8);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
   .inicio__compu {
     margin-top: 100px;
     margin-bottom: 200px;
@@ -160,11 +183,13 @@ body {
     width: 350px;
     height: 225px;
     border-radius: 100px;
+    animation: aparecer 1s ease-out;
   }
   .inicio__compu img {
     width: 350px;
     height: fit-content;
     border-radius: 100px;
+    animation: aparecer 1s ease-out;
   }
 }
 @media only screen and (min-width: 416px) and (max-width: 769px) {
@@ -188,14 +213,26 @@ body {
     text-align: center;
     justify-content: center;
   }
+  @keyframes aparecer {
+    0% {
+      opacity: 0;
+      transform: scale(0.8);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
   .inicio__compu {
     margin-top: 100px;
     margin-bottom: 200px;
     margin-right: 3px;
+    animation: aparecer 1s ease-out;
   }
   .inicio__compu img {
     width: 350px;
     height: cover;
+    animation: aparecer 1s ease-out;
   }
 }
 @media only screen and (min-width: 769px) and (max-width: 1360px) {
@@ -220,8 +257,22 @@ body {
     text-align: center;
     justify-content: center;
   }
+  @keyframes aparecer {
+    0% {
+      opacity: 0;
+      transform: scale(0.8);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
   .inicio__compu {
     margin-bottom: 200px;
+    animation: aparecer 1s ease-out;
+  }
+  .inicio__compu img {
+    animation: aparecer 1s ease-out;
   }
 }
 .sobremi {
