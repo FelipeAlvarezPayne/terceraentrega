@@ -25,69 +25,75 @@
 	margin-top: 3rem;
 	margin-right: 0px;
 	margin-bottom: 3rem;
+	animation: caida 2s ease-in-out;
 
 }
 
-.proyectos {
+  .proyectos__box,
+  .boximgP,
+  .box-text--proyecto,
+  .Ver {
+	animation: caida 2s ease-in-out;
+  }
+  
+  .proyectos {
 	width: 80vw;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
 	margin: auto;
 	margin-left: 40px;
-
-	&__box {
-		padding: 20px 20px;
-		background-color: $color3;
-		border: transparent;
-		border-radius: 18px;;
-		text-align: justify;
-		color: $color2;
-		width: 35vw;
-		display: flex;
-		flex-flow: row nowrap;
-		margin-bottom: 2.5rem;
-		margin-right: 3rem;
-    }
-}
-	
-
-.boximgP {
+  }
+  
+  .proyectos__box {
+	padding: 20px 20px;
+	background-color: $color3;
+	border: transparent;
+	border-radius: 18px;;
+	text-align: justify;
+	color: $color2;
+	width: 35vw;
+	display: flex;
+	flex-flow: row nowrap;
+	margin-bottom: 2.5rem;
+	margin-right: 3rem;
+  }
+  
+  .boximgP {
 	width: 300px;
 	border-radius: 18px;
-}
-
-
-.box-text--proyecto {
-	text-align: left;
-	margin-left: .8rem;
-}
-
-.box-text {
-	text-align: left;
-	margin-right: 2.5rem;
-	&__paragraph {
-		color: $color5; }
-}
-	
-
-.Ver {
+  }
+  
+  .box-text--proyecto {
+    text-align: left;
+    margin-left: 0.8rem; }
+    
+  
+  
+  .Ver {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	&_text {
-		color: $color4;
-		text-decoration: none;
-		border: 2px solid $color5;
-		border-radius: 20px;
-		padding: 10px; }
-
-		&_text:hover {
-			background-color: $color5;
-			color: $color3; }
-}
+	
+  }
+  
+  .Ver_text {
+	color: $color4;
+	text-decoration: none;
+	border: 2px solid $color5;
+	border-radius: 20px;
+	padding: 10px;
+  }
+  
+  .Ver_text:hover {
+	background-color: $color5;
+	color: $color3;
+	animation: latido 1s infinite;
+  }
+  
 		
-@media (max-width: 415px) {	
+@media (max-width: 415px) {
+	
 .section-proyectos {
 	width: auto;
 	margin: 10px;
