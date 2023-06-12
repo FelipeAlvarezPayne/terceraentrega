@@ -1,20 +1,5 @@
-$color1: #2a2929;
-$color2: #F6E3CA;
-$color3: #171717;
-$color4: #D7C8B6;
-$color5: #cbae88;
+@import "pages/base";
 
-* {
-    padding: 0;
-    margin: 0;
-    
-}
-body {
-    margin: 0;
-    background-color: $color3;
-    font-family: 'Poppins', sans-serif;
-}
-    
 
 @import "components/navbar";
 @import "components/footer";

@@ -1,7 +1,8 @@
+
 .footer {
     position:fixed;
     bottom: 0px;
-    background-color: #2a2929;
+    background-color: $color1;
     padding: 10px;
     display: flex;
     align-items: baseline;
@@ -20,14 +21,14 @@
 
 }
     &__list a {
-    color: #D7C8B6;
+    color: $color4;
 }
     &__list a:hover {
     color: #FFF;
     transition: .3s;
 }
 .footer__Licencia {
-    color: #D7C8B6;
+    color: $color4;
     font-size: 0.625rem;
     padding: 10px;
     margin-left: 20px;

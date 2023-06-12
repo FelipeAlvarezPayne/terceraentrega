@@ -92,7 +92,6 @@ body {
     position: relative;
   }
 }
-/*SECCION INDEX*/
 .inicio {
   display: flex;
   margin-top: 150px;
@@ -225,7 +224,6 @@ body {
     margin-bottom: 200px;
   }
 }
-/*SECCION SOBREMI*/
 .sobremi {
   display: flex;
   background-color: #2a2929;
@@ -479,7 +477,7 @@ body {
   margin-right: 3rem;
 }
 
-.boximg {
+.boximgP {
   width: 300px;
   border-radius: 18px;
 }
@@ -528,6 +526,10 @@ body {
     width: auto;
     margin: 20px;
     gap: 40px;
+  }
+  .boximgP {
+    width: 300px;
+    border-radius: 18px;
   }
   .Ver {
     display: flex;
@@ -645,7 +647,6 @@ body {
     color: #171717;
   }
 }
-/*SERVICIOS*/
 .section-servicios {
   display: flex;
   background-color: #2a2929;
@@ -828,7 +829,6 @@ body {
     position: relative;
   }
 }
-/* CONTACTO */
 .contacto {
   width: 100%;
   height: 50vh;

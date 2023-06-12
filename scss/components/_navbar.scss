@@ -1,9 +1,10 @@
+
 .navbar { 
-    background-color: #2a2929; 
+    background-color: $color1; 
 
 
     &-brand {
-        color: #cbae88;
+        color: $color5;
         font-size: 1.6rem;
     }
     &-brand:hover {
@@ -11,7 +12,7 @@
         transition: .2s;
     }
     &-toggler {
-        color: #cbae88;
+        color: $color5;
         width: 70px;
         border: none !important; 
     }
@@ -20,7 +21,7 @@
     }
 }
 .nav-link {
-    color: #cbae88;
+    color: $color5;
     font-size: 1.1rem;
 }
 .nav-link:hover  {
