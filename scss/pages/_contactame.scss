@@ -51,3 +51,120 @@
         transition: .2s;
     }
 }
+
+@media (max-width: 415px) { 
+.footer {
+    position:relative;
+}
+.contacto {
+    width: auto;
+    height: auto;
+    margin: 0px;
+    margin-top: 80px;
+
+        &__contenido {
+            display: grid;
+            margin-top: 60px;
+            justify-content: center;
+            align-items: center ;
+            margin-bottom: 80px;
+        }
+        &__contenido h1 {
+            font-size: 1.7rem;
+        }
+    }
+}
+
+@media only screen and (min-width: 416px) and (max-width: 769px) {
+.footer {
+    position:relative;
+}
+.contacto {
+    width: auto;
+    height: auto;
+    margin: 0px;
+
+        &__contenido {
+        display: grid;
+        margin-top: 60px;
+        justify-content: center;
+        align-items: center ;
+        margin-bottom: 60px;
+        }
+        
+            &__contenido h1 {
+                font-size: 1.8rem;
+
+            }
+    
+    }
+
+
+.formulario {
+    width: 271px;
+    height: 326px;
+    margin: auto;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    }
+}
+
+
+
+@media only screen and (min-width: 769px) and (max-width: 1360px) { 
+
+.contacto {
+    width: auto;
+    height: auto;
+    margin: 0px;
+    
+    &__contenido {
+    display: grid;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center ;
+    margin-bottom: 60px;
+    }
+        &__contenido h1 {
+    
+        font-size: 1.9rem;
+        }
+    }    
+.formulario {
+    width: 271px;
+    height: 326px;
+    margin: auto;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}   
+}
+@media only screen and (min-width: 1360px) and (max-width: 1800px) {
+
+.contacto {
+    width: auto;
+    height: auto;
+    margin: 0px;
+
+    &__contenido {
+        display: grid;
+        margin-top: 60px;
+        justify-content: center;
+        align-items: center ;
+        margin-bottom: 60px;
+    }  
+} 
+.formulario {
+    width: 271px;
+    height: 326px;
+    margin: auto;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+}
+
+
+
+
