@@ -117,6 +117,17 @@
 
 @media only screen and (min-width: 769px) and (max-width: 1360px) { 
 
+    .footer {
+        position: fixed;
+        bottom: 0px;
+        background-color: #2a2929;
+        padding: 10px;
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        width: 100%;
+    }
+
 .contacto {
     width: auto;
     height: auto;
@@ -144,6 +155,17 @@
 }   
 }
 @media only screen and (min-width: 1360px) and (max-width: 1800px) {
+
+    .footer {
+        position: fixed;
+        bottom: 0px;
+        background-color: #2a2929;
+        padding: 10px;
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        width: 100%;
+    }
 
 .contacto {
     width: auto;
