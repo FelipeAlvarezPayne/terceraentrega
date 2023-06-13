@@ -1019,6 +1019,9 @@ body {
   .contacto__contenido h1 {
     font-size: 1.7rem;
   }
+  .form {
+    margin: 10px;
+  }
   .form__caja {
     grid-template-columns: 1fr;
   }

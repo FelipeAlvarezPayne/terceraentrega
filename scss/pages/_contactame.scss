@@ -143,10 +143,13 @@
         font-size: 1.7rem;
     }
 }
+.form {
+    margin: 10px;
 
-    .form__caja {
+    &__caja {
         grid-template-columns: 1fr;
     }
+}
     .left {
         height: 200px;
         border-radius: 18px 18px 0px 0px;
