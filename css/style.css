@@ -930,7 +930,7 @@ body {
 
 .left {
   height: 100%;
-  background: url(/imagenes/contactame.webp) no-repeat center;
+  background: url(.//imagenes/contactame.webp) no-repeat center;
   background-size: cover;
   border-radius: 18px 0px 0px 18px;
 }
