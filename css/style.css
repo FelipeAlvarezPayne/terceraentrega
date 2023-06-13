@@ -597,7 +597,7 @@ body {
     border-radius: 20px;
     padding: 10px;
   }
-  .Ver:hover {
+  .Ver_text:hover {
     background-color: #cbae88;
     color: #171717;
   }
@@ -630,7 +630,7 @@ body {
     border-radius: 20px;
     padding: 10px;
   }
-  .Ver:hover {
+  .Ver_text:hover {
     background-color: #cbae88;
     color: #171717;
   }
@@ -663,7 +663,7 @@ body {
     border-radius: 20px;
     padding: 10px;
   }
-  .Ver:hover {
+  .Ver_text:hover {
     background-color: #cbae88;
     color: #171717;
   }

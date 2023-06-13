@@ -125,7 +125,7 @@
 		border-radius: 20px;
 		padding: 10px;
 		}
-		&:hover {
+	&_text:hover {
 		background-color: $color5;
 		color: $color3;
 		}
@@ -163,7 +163,7 @@
         padding: 10px;
 		}
     
-    		&:hover {
+    	&_text:hover {
         	background-color: $color5;
         	color: $color3;
         	}
@@ -200,7 +200,7 @@
         border-radius: 20px;
         padding: 10px;
     	}
-    		&:hover {
+    	&_text:hover {
         	background-color: $color5;
         	color: $color3;
         
