@@ -42,7 +42,7 @@
         background-color: $color2;
         border-radius: 100px;
         box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-        animation: aparecer 2.5s ease-out;
+        
       }
       
       
@@ -51,7 +51,7 @@
         width: auto;
         border-radius: 100px;
         padding: 10px;
-        animation: aparecer 2.5s ease-out;
+        animation: aparecer 1s ease-out;
     }
       
 
@@ -134,12 +134,12 @@
             margin-top: 100px;
             margin-bottom: 200px;
             margin-right: 3px;
-            animation: aparecer 1s ease-out;
+            
         }
         &__compu img {
             width: 350px;
             height: cover;
-            animation: aparecer 1s ease-out;
+            
         }
     }
 }
@@ -168,10 +168,8 @@
        
         &__compu {
             margin-bottom: 200px;
-            animation: aparecer 1s ease-out;
+            
         }
-        &__compu img {
-            animation: aparecer 1s ease-out;
-         }
+        
     }
 }
