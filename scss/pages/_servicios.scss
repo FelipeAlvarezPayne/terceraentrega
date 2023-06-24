@@ -22,7 +22,7 @@
 	overflow: clip;
 }
 
-@media (max-width: 415px) {
+@media only screen and (min-width: 320px) and (max-width: 415px) {
 
 .section-servicios {
         width: auto;
@@ -37,8 +37,8 @@
     
         &__box {
         display: grid;
-        width: auto;
-        margin: auto;
+        width: 90%;
+        margin: 10px;
         text-align: center;
         justify-content: center;
         align-items: center;
@@ -46,7 +46,7 @@
     
     
 .boximgS {
-        width: 200px;
+        width: 180px;
         border: none;
     }
 .box-text {
@@ -69,7 +69,7 @@
     .section-servicios {
         width: auto;
         height: auto;
-        margin: 60px;
+        margin: 20px;
         margin-top: 40px;
         margin-bottom: 40px;
     }
@@ -81,7 +81,7 @@
         &__box {
         display: grid;
         width: auto;
-        margin: 30px;
+        margin: 10px;
         text-align: center;
         justify-content: center;
         align-items: center;
