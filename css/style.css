@@ -203,12 +203,12 @@ body {
     margin-top: 100px;
     margin-bottom: 200px;
     margin-right: 3px;
-    width: 350px;
-    height: 225px;
+    width: 300px;
+    height: auto;
     border-radius: 100px;
   }
   .inicio__compu img {
-    width: 350px;
+    width: 300px;
     height: fit-content;
     border-radius: 100px;
   }
